@@ -8,5 +8,7 @@ use pycharm IDE
 
 type in the terminal python Main.py <Youtube Url>
 Ex: python Main.py https://www.youtube.com/watch?v=en_A0fVKhdA
+  
+  This Script can get Youtube video title, Views, LIke, Dislike, and Comments
 
 Also, this project can be improved for every web page. not only for youtube
