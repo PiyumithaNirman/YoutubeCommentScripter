@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.common import exceptions
 import sys
 import time
+from openpyxl import Workbook
 
 
 def scrape(url):
@@ -65,8 +66,7 @@ def scrape(url):
     print("> USERNAMES & COMMENTS:")
 
     for username, comment in zip(username_elems, comment_elems):
-        print(username.text + ":")
-        print(comment.text + "\n")
+        print(username.text + ": " + comment.text + "\n")
 
     driver.close()
 
